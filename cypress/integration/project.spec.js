@@ -185,7 +185,7 @@ describe('7 - Clicar em um item da lista deve alterar a cor de fundo do item par
   });
 });
 
-describe('8 - Não deve ser possível selecionar mais de um elemento da lista ao mesmo tempo', () => {
+describe.only('8 - Não deve ser possível selecionar mais de um elemento da lista ao mesmo tempo', () => {
   beforeEach(() => {
     cy.viewport(1366, 768);
     cy.visit('./index.html');
